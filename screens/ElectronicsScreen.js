@@ -33,7 +33,7 @@ export default function ElectronicsScreen() {
     fetchData();
   }, []);
 
-  // Filter products based on selected category
+ 
   const filterProducts = (categoryId, categoryName) => {
     setSelectedCategoryId(categoryId);
     const filtered = products.filter(product => product.name === categoryName);

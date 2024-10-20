@@ -13,11 +13,11 @@ export default function LoginScreen() {
 
   // Mảng 5 tài khoảng
   const users = [
-    { email: 'hieunhan@example.com', password: '123456' },
-    { email: 'hieunhan2@example.com', password: '123456' },
-    { email: 'hieunhan3@example.com', password: '123456' },
-    { email: 'hieunhan4@example.com', password: '123456' },
-    { email: 'hieunhan5@example.com', password: '123456' },
+    { email: 'hn@gmail.com', password: '123456' },
+    { email: 'hn2@gmail.com', password: '123456' },
+    { email: 'hn3@gmail.com', password: '123456' },
+    { email: 'hn4@gmail.com', password: '123456' },
+    { email: 'hn5@gmail.com', password: '123456' },
   ];
 
   const handleLogin = () => {
